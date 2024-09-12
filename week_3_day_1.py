@@ -48,44 +48,44 @@
 
 
 # # Review
-# create variables for the following :
-# 1. age
-age= 16 #integer variable
-# 2. name
-name= "diego" # string variable
-# 3. song
-song= "elevator music" # string variable
-# 4. food
-food= "pizza" # string variable
-# 5. number
-number= 10 # integer variable
+# # create variables for the following :
+# # 1. age
+# age= 16 #integer variable
+# # 2. name
+# name= "diego" # string variable
+# # 3. song
+# song= "elevator music" # string variable
+# # 4. food
+# food= "pizza" # string variable
+# # 5. number
+# number= 10 # integer variable
 
-# #now include the variables you just made print in the following...
-
-
-# Once upon a time, there was a [age] old coder named [name].
+# # #now include the variables you just made print in the following...
 
 
-# [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
+# # Once upon a time, there was a [age] old coder named [name].
 
 
-# Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
-print("Once upon a time, there was a " + str(age)+ " year old coder named " + name + ".")
-print(name + " liked to hum the song " + song + " while coding. It was so annoying that their teammates would throw " + food + " until " + name + "would stop singing.")
-
-# [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
+# # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
 
 
-# Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?")
+# # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
+# print("Once upon a time, there was a " + str(age)+ " year old coder named " + name + ".")
+# print(name + " liked to hum the song " + song + " while coding. It was so annoying that their teammates would throw " + food + " until " + name + "would stop singing.")
 
-number1= 100
-number2= 200
-number3= 300
-number4= 400
-number5= 500
+# # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
 
-# print("I can count " + str(number1)+ " then " + str(number2)+" then " + str(number3)+ " then " + str(number4)+ " then " + str(number5)+" see.")
-print(f"{number1},{number2},{number3},{number4},{number5}.")
+
+# # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?")
+
+# number1= 100
+# number2= 200
+# number3= 300
+# number4= 400
+# number5= 500
+
+# # print("I can count " + str(number1)+ " then " + str(number2)+" then " + str(number3)+ " then " + str(number4)+ " then " + str(number5)+" see.")
+# print(f"{number1},{number2},{number3},{number4},{number5}.")
 
 
 ##########################################################################################
@@ -189,20 +189,33 @@ print(f"{number1},{number2},{number3},{number4},{number5}.")
 
 ##########################################################################################
 # #addition
+print(2+1)
 # #multiplication
+print(2*2)
 # #division
+print(3/2)
 # #modulo
+print(7%4) #remainder of two numbers
 # #powers
+print(2**3)
 # #get the max and min of a number
+print(max(1,2))
+print(min(1,2))
 # #round a number
+print(round(3,4))
 # # absolute value
+print(abs(-3))
 # # order of operations
+print(2 + 10 * 10 +3)
 # #to do more you need to import special math libraries from python
-# #from math import *    
+from math import *    
 # #this goes out and grabs some different math functions we can use
 # #floor method
+print(floor(3.7))
 # #ceil method
+print(ceil(3.7))
 # #sqrt method
+print(sqrt(36))
 
 
 
@@ -222,14 +235,23 @@ print(f"{number1},{number2},{number3},{number4},{number5}.")
 # # **Getting Input from users**
 # #how do we get input from users?
 # input("what is your name?")
+# name = input("what is your name?")
+# print("hello "+ name)
 # # basic math calculator
 # #ask the user for 2 numbers
+num1=int (input ("enter a number: "))
+num2=int (input ("enter another number: "))
 # # print out a statement where you:
 # # add them together
+print(num1 + num2)
 # #multiply
+print(num1 * num2)
 # # find the max number
+print(max(num1,num2))
 # # find the remainder of the numbers
+print(num1%num2)
 # #round one number
+print(round(num1, num2))
 
 
 
